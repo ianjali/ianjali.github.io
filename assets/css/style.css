@@ -315,7 +315,9 @@ section {
 .section-bg {
   background: #f5f8fd;
 }
-
+/* .section-bg {
+  background: #fff;
+} */
 .section-title {
   padding-bottom: 30px;
 }
@@ -381,7 +383,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skill-list {
   display: flex;
