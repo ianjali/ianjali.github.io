@@ -386,14 +386,38 @@ section {
 .skill-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .skill {
-  width: 50%;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.skill-logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.skill p {
   text-align: center;
 }
 
+
+/* .skill-list {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+/* .skill {
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+} */
+/* 
 .progress-circle {
   position: relative;
   width: 100px;
@@ -424,7 +448,7 @@ section {
   transform: translate(-50%, -50%);
   font-size: 18px;
   font-weight: bold;
-}
+} */
 
 .skills .progress {
   height: 60px;
