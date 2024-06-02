@@ -1125,9 +1125,17 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+#footer .copyright {
+  font-size: 8px; /* Adjust the value for the copyright text */
+}
+
+#footer .credits {
+  font-size: 8px; /* Adjust the value for the credits text */
+}
 #footer {
   padding: 15px;
   color: #f4f6fd;
+  /* color: #666669; */
   font-size: 14px;
   position: fixed;
   left: 0;
@@ -1144,8 +1152,8 @@ section {
 #footer .credits {
   padding-top: 5px;
   text-align: center;
-  font-size: 13px;
-  color: #eaebf0;
+  /* font-size: 13px; */
+  color: #7a7a7c;
 }
 
 @media (max-width: 1199px) {
